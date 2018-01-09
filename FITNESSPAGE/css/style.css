@@ -1,0 +1,14 @@
+h3{
+  color: grey;
+  font-size: 35px;
+}
+
+summary{
+  border: 1px solid red;
+  background-color: red;
+  color: blue;
+}
+
+.ty{
+  color: blue;
+}
