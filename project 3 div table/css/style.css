@@ -1,0 +1,28 @@
+@charset "utf-8";
+*, html, body{
+margin: 0;
+padding: 0;
+}
+
+.head{
+	width:800px;
+	height:100px;
+	margin:auto;
+	background-color:#102609;
+}
+
+.body{
+	width:800px;
+	height:469px;
+	margin:auto;
+	background-color:#ddff00;
+}
+
+
+.photo{
+	width:160px;
+	height:100px;
+	float:left;
+}
+
+
