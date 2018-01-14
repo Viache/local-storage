@@ -1,0 +1,26 @@
+@charset "utf-8";
+*, html, body{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	min-height:100%;
+}
+
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d4145a+0,fbb03b+100 */
+background: rgb(212,20,90); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(212,20,90,1) 0%, rgba(251,176,59,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(212,20,90,1) 0%,rgba(251,176,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(212,20,90,1) 0%,rgba(251,176,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4145a', endColorstr='#fbb03b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+/*
+	0deg-сверху вниз
+	90deg-справа налево
+	180deg-снизу вверх
+	270deg-слева направо
+*/
