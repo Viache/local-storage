@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Forms!</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+	
+		<form action="pages/page.html" 
+		method="POST"  autocomplete="on">
+		<input type="text" name="myName"
+		placeholder="Ваше имя:" list="namesList">
+		
+		<datalist id="namesList">
+			<option value="Никита">
+			<option value="Вячеслав">
+			<option value="Сергей">
+		</datalist>
+		
+		</form>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<form action="pages/page.html" 
+		method="POST"  autocomplete="on">
+			<fieldset disabled>
+			<legend>Title</legend>
+				<input type="text"><br>
+				<input type="submit"><br>
+			</fieldset>
+<!disabled делает эту рамку недоступной>			
+		</form>
+		<br>
+		<br>
+		<br>
+		
+		
+		<form action="pages/page.html" 
+		method="POST"  autocomplete="on">
+		
+		<select name="" id="">
+			<option disabled selected>Hello!</option>
+			<option>Hove are you!</option>
+			<option>Good!</option>
+			<option>Lets go!</option>
+		</select>
+		
+		</form>
+		
+		<br>
+		
+		<form action="pages/page.html" 
+		method="POST"  autocomplete="on">
+		
+			<input type="text" autofocus tabindex="2">
+			<input type="text" autofocus tabindex="3">
+			<input type="text" autofocus tabindex="1">
+			<input type="button" value="Submit">
+		
+		</form>
+
+	</body>
+	
+
+</html>

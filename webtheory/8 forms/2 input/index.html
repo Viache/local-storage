@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Forms!</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+	
+		<form action="pages/page.html" 
+		method="POST" novalidate autocomplete="on"
+		enctype="application/x-www-form-urlencoded"
+		target="iframe">
+		<input type="text">
+		</form>
+		
+		<h1>Inputs!</h1>
+		
+		<h2>Текстовые инпуты, в котрых можно написать 
+		одну сторку</h2>
+		
+		<!maxlength максимум чисел в строке>
+		<!placeholder то что будет написано в стороке>
+		<!readonly только для чтения>
+		<!size длина поля>
+		<!spellcheck атрибут 
+		true значене для того что бы 
+		написанное проверялось орфографически, 
+		если будет не рпаильно написано
+		текст будет подчеркнут крассной линией
+		false для того что бы спеллчек не работал
+		default значение по умолчанию, браузер будет 
+		решать подсвечивать ему или нет?>
+		<!pattern атрибут при помощи которого можно указывать
+		что именно нужно вводить в строке>
+		<!name="myName" сервер будет обрабатывать только
+		то что написано внутри атрибута>
+		
+		Текстовое поле: <input type="text"
+		autocomplete="on" maxlength="50"
+		placeholder="Ваше имя:"
+		size="150" spellcheck="false"
+		><br>
+		Поле-пароль: <input type="password"><br>
+		Поле для e-mail: <input type="email"><br>
+		Поле для URL: <input type="url"><br>
+		Поле для поиска: <input type="search" spellcheck="true"><br>
+		Поле для телефона: <input type="tel"><br>
+		
+		<h2>Инпуты, которые не содержат ввод текста</h2>
+		
+		<!name="c1" в радио кнопках нужно будет выбрать
+		только один вариант>
+		<! value="1" на сервер будет уходить только значение 1>
+		<!checked если поставить чекд в какойто 
+		из кнопок, то на кнопке уже будет отмечана точка
+		за пользователя>
+		<!required обязательно нужно поставить точку >
+		
+		Радио-кнопка 1<input type="radio" name="c1"><br>
+		Радио-кнопка 2<input type="radio" name="c1"><br>
+		Радио-кнопка 3<input type="radio" name="c1"
+		checked><br>
+		
+		Чекбокс 1 <input type="checkbox"><br>
+		Чекбокс 2 <input type="checkbox"><br>
+		Чекбокс 3 <input type="checkbox"><br>
+		
+		Чекбокс: <input type="checkbox"><br>
+		Цвет: <input type="color" required ><br>
+		Файл: <input type="file" accept="audio/*"
+		multiple><br><!будут приниматься любые аудио и только, еще есть video and image любого разрешения
+		Но если вам нужны конкретно картинки именно png или jpeg то нужно написать image/jpeg>
+		<!multiple разрешает принимать несколько файлов одновременно, не требует никакого значения,
+		применяеться не только к файлам но и к емейлам и тд>
+		Спрятанное поле: <input type="hidden"><br>
+		Числовое поле: <input type="number"><br>
+		Радио-кнопка: <input type="radio"><br>
+		Ввод даты без времени: <input type="date"><br>
+		Ввод даты с временем: <input type="datetime"><br>
+	 	Поле-диапозон: <input type="range" min="0"
+		max="1000" step="100"><br>
+		Контроль ввода даты: <input type="datetime-local"><br>
+		Ввод месяца: <input type="month"><br>
+		Ввод времени: <input type="time"><br>
+		Ввод недели: <input type="week"><br>
+		
+		<h2>Инпуты-кнопки</h2><br>
+		Кнопка без поведения: <input type="button"><br>
+		Графическая кнопка отправить: <input type="image"
+		alt="альтернативное изображение"
+		src="" height="" width=""><br>
+		Кнопка для очищения формы: <input type="reset"><br>
+		Кнопка для отправки формы: <input type="submit"><br>
+		
+		
+		<iframe src="" frameborder="0" name="iframe"></iframe>
+		
+		
+		
+
+	</body>
+	
+
+</html>
