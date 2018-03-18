@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	margin: auto;
+	height: 182px;
+	width: 560px;
+	border: 1px solid #000000;
+	justify-content: center;
+}
+
+.box {
+	width: 100px;
+	height: 170px;
+	background-color: #f7f7f7;
+	margin: 5px;
+}
+
+@media screen and (max-width: 440px) {
+.container {
+	display: flex;
+	margin: auto;
+	height: 410px;
+	width: 400px;
+	border: 1px solid #000000;
+	flex-wrap: wrap; 
+}
+
+.box {
+	border: 1px solid #000000;
+	width: 180px;
+	height: 75px;
+	margin: auto;
+}
+.box-bottom-mobile{
+	flex: auto;
+	margin: 9px;
+}
+}
+
