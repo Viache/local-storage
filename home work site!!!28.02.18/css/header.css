@@ -1,0 +1,10 @@
+.header {
+	background: #30ADD1;
+	font-size: 1.3em;
+	border-bottom: 2px solid silver;
+	margin-bottom: 10px; 
+	display: flex;
+	justify-content: space-between;
+}
+
+
