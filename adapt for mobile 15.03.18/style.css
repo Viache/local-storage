@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 .container {
@@ -18,14 +20,16 @@
 	margin: 5px;
 }
 
-@media screen and (max-width: 220px) {
+@media screen and (max-width: 500px) and (min-width: 401px) {
 	.container {
 		display: flex;
-		margin: auto;
-		height: 410px;
-		width: 400px;
-		border: 1px solid #000000;
+		flex-direction: row;
 		flex-wrap: wrap; 
+		margin: auto;
+		min-height: 590px;
+		max-width: 490px;
+		border: 1px solid #000000;
+		
 	}
 	
 	.box {
@@ -35,7 +39,19 @@
 		margin: auto;
 	}
 	.mobile-bottom-box{
-		width: 300px;
+		min-width: 380px;
 	}
+	}
+
+	@media screen and (max-width: 400px) {
+		.container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			border: 1px solid #000000;
+			min-width: 380px;
+			min-height: 835px; 
+		}
 	}
 
